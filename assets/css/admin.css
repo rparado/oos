@@ -1,0 +1,46 @@
+#order-table .status-mark,
+.wcicon-status-processing {
+	cursor: help;
+}
+#order-table .status-mark {
+	display: block;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    background: 0 0;
+    font-size: 1.4em;
+    margin: 0 auto;
+}
+#order-table .status-processing {
+	color: #73a724;
+}
+#order-table .status-pending {
+	color: #ffba00;
+} 
+#order-table .status-onhold {
+	color: #999;
+}
+#order-table .status-completed {
+	color: #2ea2cc;
+}
+#order-table .status-cancelled {
+	color: #a00;
+}
+#order-table .status-refunded {
+	color: #999;
+}
+#order-table .status-refunded {
+	color: #d0c21f;
+}
+
+.btn-view-order {
+	font-size: 30px;
+	border: none;
+    vertical-align: middle;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+}
+.btn-view-order:hover {
+	text-decoration: none;
+}
